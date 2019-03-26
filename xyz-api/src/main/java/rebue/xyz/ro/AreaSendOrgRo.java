@@ -17,7 +17,7 @@ public class AreaSendOrgRo {
 	 * 区域名称
 	 */
 	private String areaName;
-
+ 
 	/**
 	 * 区域下的发货总数
 	 */
