@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.github.rebue.common-pom</groupId>
+		<artifactId>sb-parent</artifactId>
+		<version>1.0.9</version>
+	</parent>
+
+	<groupId>com.github.rebue.xyz</groupId>
+	<artifactId>xyz</artifactId>
+	<packaging>pom</packaging>
+	<description>未知的政府项目</description>
+
+
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>com.github.rebue.xyz</groupId>
+				<artifactId>xyz-api</artifactId>
+				<version>1.0.9</version>
+			</dependency>
+			<dependency>
+				<groupId>com.github.rebue.xyz</groupId>
+				<artifactId>xyz-bll</artifactId>
+				<version>1.0.9</version>
+			</dependency>
+			<dependency>
+				<groupId>com.github.rebue.suc</groupId>
+				<artifactId>suc-svr-feign</artifactId>
+				<version>1.0.8</version>
+			</dependency>
+			<dependency>
+				<groupId>com.github.rebue.kdi</groupId>
+				<artifactId>kdi-svr-feign</artifactId>
+				<version>1.0.9</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+  <modules>
+    <module>xyz-gen</module>
+    <module>xyz-api</module>
+    <module>xyz-bll</module>
+    <module>xyz-svr</module>
+  </modules>
+</project>

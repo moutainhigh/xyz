@@ -1,0 +1,13 @@
+rebue/xyz/svc/XyzAreaSendOrgSvc.class
+rebue/xyz/to/MoveOrgsTo.class
+rebue/xyz/ro/AreaSendOrgRo.class
+rebue/xyz/mo/XyzAreaMngOrgMo.class
+rebue/xyz/jo/XyzAreaSendOrgJo.class
+rebue/xyz/ro/SendOrgDeliverCountRo.class
+rebue/xyz/svc/XyzAreaMngOrgSvc.class
+rebue/xyz/jo/XyzAreaJo.class
+rebue/xyz/svc/XyzAreaSvc.class
+rebue/xyz/mo/XyzAreaSendOrgMo.class
+rebue/xyz/mo/XyzAreaMo.class
+rebue/xyz/jo/XyzAreaMngOrgJo.class
+rebue/xyz/to/AreaSendOrgTo.class

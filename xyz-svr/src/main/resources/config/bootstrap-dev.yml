@@ -1,0 +1,31 @@
+# 开发环境的配置
+debug: true
+
+server:
+  # 自定义端口号，方便开发测试
+  port: 9500
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://192.168.1.201:8761/eureka/
+
+logging:
+  config: classpath:config/log4j2.xml
+  level:
+    root: info
+    rebue: trace
+    com.netflix.discovery: off
+
+spring:
+  rabbitmq:
+      host: 192.168.1.201
+      port: 5672
+      username: guest
+      password: guest
+  datasource:
+    url: jdbc:mysql://192.168.1.201:3306/xyz?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true
+    username: xyz
+    password: xyz
+
+appid: 1
