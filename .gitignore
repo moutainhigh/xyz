@@ -1,11 +1,12 @@
-target
 .classpath
 .project
+target
 .settings
 logs
-*.log
-app.properties
-.springBeans
 .DS_Store
+*.pdb
+*.ldb
+*.gz
+*.log.gz
+*.class
 rebel.xml
-pom.xml.versionsBackup
