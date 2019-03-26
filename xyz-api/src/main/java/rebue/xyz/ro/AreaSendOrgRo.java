@@ -10,7 +10,7 @@ public class AreaSendOrgRo {
 
 	/**
 	 * 区域id
-	 */ 
+	 */  
 	private Long areaId;
 
 	/**
